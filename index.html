@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+	<title>Authors: Anastasia Razdovski, Anna Vasilieva, Mykhailo Mikailov, Patrik Ederman</title>
+    <p>Medicare patients</p>
+    </head>
+    <body>
+        async function logMovies() {
+            const response = await fetch("users.json");
+            const movies = await response.json();
+            console.log(movies);
+          }
+    </body>
+
+</html>
